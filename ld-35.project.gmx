@@ -5,14 +5,31 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sp_solid</sprite>
+    <sprite>sprites\sp_player_cube</sprite>
+  </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\backgrounder.gml</script>
+    <script>scripts\collision.gml</script>
+    <script>scripts\draw_text_shadow.gml</script>
   </scripts>
+  <objects name="objects">
+    <object>objects\c_solid</object>
+    <object>objects\ct_init</object>
+    <object>objects\ct_main</object>
+    <object>objects\cl_moves</object>
+    <object>objects\cl_player</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room_splash</room>
+    <room>rooms\w1_1</room>
+    <room>rooms\the_end</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
