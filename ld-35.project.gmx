@@ -34,6 +34,7 @@
     <script>scripts\backgrounder.gml</script>
     <script>scripts\collision.gml</script>
     <script>scripts\draw_text_shadow.gml</script>
+    <script>scripts\glower.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\c_solid</object>
