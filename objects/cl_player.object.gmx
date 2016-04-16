@@ -244,8 +244,10 @@ cY2=y-sprite_height-2
 var o = collision_rectangle(cX1,cY1,cX2,cY2,c_changer,false,true)
 
 if o !=noone {
-    if form != o.form {
-        form=o.form
+    if o.active=true {
+        if form != o.form {
+            form=o.form
+        }
     }
 }
 </string>

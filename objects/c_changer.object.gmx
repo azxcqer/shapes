@@ -28,6 +28,8 @@
             <string>///init
 event_inherited()
 form=0
+active=true
+glower_init()
 </string>
           </argument>
         </arguments>
@@ -52,7 +54,6 @@ form=0
             <kind>1</kind>
             <string>///"animation"
 event_inherited()
-
 switch (form) {
     default:
     case 0:
@@ -77,6 +78,9 @@ switch (form) {
     sprite_index=sp6
     break
 }
+if active {
+    glower()
+    }
 </string>
           </argument>
         </arguments>
