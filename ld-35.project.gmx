@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\sp_solid</sprite>
     <sprites name="player">
+      <sprite>sprites\spPlayer0</sprite>
       <sprite>sprites\spPlayer1</sprite>
       <sprite>sprites\spPlayer2</sprite>
       <sprite>sprites\spPlayer3</sprite>
