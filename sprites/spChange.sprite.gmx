@@ -20,6 +20,12 @@
   <width>6</width>
   <height>6</height>
   <frames>
-    <frame index="0">images\sp0_0.png</frame>
+    <frame index="0">images\spChange_0.png</frame>
+    <frame index="1">images\spChange_1.png</frame>
+    <frame index="2">images\spChange_2.png</frame>
+    <frame index="3">images\spChange_3.png</frame>
+    <frame index="4">images\spChange_4.png</frame>
+    <frame index="5">images\spChange_5.png</frame>
+    <frame index="6">images\spChange_6.png</frame>
   </frames>
 </sprite>
