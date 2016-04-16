@@ -16,6 +16,15 @@
       <sprite>sprites\spPlayer5</sprite>
       <sprite>sprites\spPlayer6</sprite>
     </sprites>
+    <sprites name="changer">
+      <sprite>sprites\sp0</sprite>
+      <sprite>sprites\sp1</sprite>
+      <sprite>sprites\sp2</sprite>
+      <sprite>sprites\sp3</sprite>
+      <sprite>sprites\sp4</sprite>
+      <sprite>sprites\sp5</sprite>
+      <sprite>sprites\sp6</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
@@ -32,6 +41,7 @@
     <object>objects\ct_main</object>
     <object>objects\cl_moves</object>
     <object>objects\cl_player</object>
+    <object>objects\c_changer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>

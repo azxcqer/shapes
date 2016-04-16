@@ -132,6 +132,61 @@ if landed
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///changing the player sprites
+/*
+who_am_i()
+*/
+//forming
+switch (form) {
+    default:
+    case 0:
+    sprite_index=spPlayer0
+    break
+    case 1:
+    sprite_index=spPlayer1
+    break
+    case 2:
+    sprite_index=spPlayer2
+    break
+    case 3:
+    sprite_index=spPlayer3
+    break
+    case 4:
+    sprite_index=spPlayer4
+    break
+    case 5:
+    sprite_index=spPlayer5
+    break
+    case 6:
+    sprite_index=spPlayer6
+    break
+}
+
+if form&gt;6 {
+    form=0
+}
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>///player animations
 /*
 //falling and going up
@@ -173,39 +228,7 @@ if !global.paused
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///changing the player sprites
-/*
-who_am_i()
-*/
-//forming
-switch (form) {
-    default:
-    case 0:
-    sprite_index=spPlayer0
-    break
-    case 1:
-    sprite_index=spPlayer1
-    break
-    case 2:
-    sprite_index=spPlayer2
-    break
-    case 3:
-    sprite_index=spPlayer3
-    break
-    case 4:
-    sprite_index=spPlayer4
-    break
-    case 5:
-    sprite_index=spPlayer5
-    break
-    case 6:
-    sprite_index=spPlayer6
-    break
-}
-
-if form&gt;6 {
-    form=0
-}
+            <string>///changing
 
 
 </string>
