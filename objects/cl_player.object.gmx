@@ -39,6 +39,12 @@ if !landed
 {
     vsp = global.exitvsp
 }
+
+//CIRCLE FUCK
+cX1=0
+cY1=0
+cX2=0
+cY2=0
 </string>
           </argument>
         </arguments>
@@ -229,8 +235,53 @@ if !global.paused
           <argument>
             <kind>1</kind>
             <string>///changing
+cX1=x-2
+cY1=y
+cX2=x+sprite_width
+cY2=y-sprite_height-2
 
+//var id = collision_circle(cX,cY,cRad,c_changer,false,true)
+var o = collision_rectangle(cX1,cY1,cX2,cY2,c_changer,false,true)
 
+if o !=noone {
+    if form != o.form {
+        form=o.form
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///debug graphis
+event_inherited()
+draw_self()
+
+if global.debugger {
+    var oldcolor = draw_get_color()
+    draw_set_color(c_red)
+    draw_point(cX1,cY1)
+    draw_point(cX2,cY2)
+    draw_rectangle(cX1,cY1,cX2,cY2,true)
+    draw_set_color(oldcolor)
+}
 </string>
           </argument>
         </arguments>
