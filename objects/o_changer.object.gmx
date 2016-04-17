@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>c_solid</parentName>
+  <parentName>c_interactive</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -27,7 +27,6 @@
             <kind>1</kind>
             <string>///init
 event_inherited()
-form=0
 active=true
 glower_init()
 </string>
@@ -54,7 +53,6 @@ glower_init()
             <kind>1</kind>
             <string>///"animation"
 event_inherited()
-image_index=form
 
 if active {
     glower()

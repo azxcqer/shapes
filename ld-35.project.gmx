@@ -30,11 +30,13 @@
   </scripts>
   <objects name="objects">
     <object>objects\c_solid</object>
+    <object>objects\c_interactive</object>
     <object>objects\ct_init</object>
     <object>objects\ct_main</object>
     <object>objects\cl_moves</object>
     <object>objects\cl_player</object>
-    <object>objects\c_changer</object>
+    <object>objects\o_changer</object>
+    <object>objects\o_gate</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>
