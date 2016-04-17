@@ -18,6 +18,7 @@
     </sprites>
     <sprites name="interactive">
       <sprite>sprites\sp_changer</sprite>
+      <sprite>sprites\sp_gate</sprite>
       <sprite>sprites\sp_esteira</sprite>
       <sprite>sprites\sp_esteiraR</sprite>
     </sprites>
