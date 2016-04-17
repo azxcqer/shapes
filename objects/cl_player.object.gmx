@@ -234,19 +234,29 @@ if !global.paused
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///changing
+            <string>///collisions
 cX1=x-2
 cY1=y
 cX2=x+sprite_width
 cY2=y-sprite_height-2
 
-//var id = collision_circle(cX,cY,cRad,c_changer,false,true)
-var o = collision_rectangle(cX1,cY1,cX2,cY2,c_changer,false,true)
+var o = collision_rectangle(cX1,cY1,cX2,cY2,c_interactive,false,true)
 
 if o !=noone {
-    if o.active=true {
-        if form != o.form {
-            form=o.form
+    var e = o.object_index
+    var f = o.form
+    if e=o_changer{
+        if o.active=true {
+            if form != f {
+                form=f
+            }
+        }
+    }
+    if e=o_gate{
+        if f = form {
+            with o {
+                instance_destroy()
+            }
         }
     }
 }
