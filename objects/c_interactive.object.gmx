@@ -28,6 +28,8 @@
             <string>///init
 event_inherited()
 form=0
+//if it changes sprites acording to the form it relates to
+former=true
 </string>
           </argument>
         </arguments>
@@ -51,7 +53,9 @@ form=0
           <argument>
             <kind>1</kind>
             <string>///animation
-image_index=form
+if former {
+    image_index=form
+    }
 </string>
           </argument>
         </arguments>

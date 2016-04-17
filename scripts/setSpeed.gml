@@ -1,0 +1,2 @@
+///setSpeed()
+vspMod=wop*dir
