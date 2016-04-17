@@ -7,7 +7,6 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sp_solid</sprite>
-    <sprite>sprites\sp_changer</sprite>
     <sprites name="player">
       <sprite>sprites\spPlayer0</sprite>
       <sprite>sprites\spPlayer1</sprite>
@@ -17,8 +16,11 @@
       <sprite>sprites\spPlayer5</sprite>
       <sprite>sprites\spPlayer6</sprite>
     </sprites>
-    <sprite>sprites\sp_esteira</sprite>
-    <sprite>sprites\sp_esteiraR</sprite>
+    <sprites name="interactive">
+      <sprite>sprites\sp_changer</sprite>
+      <sprite>sprites\sp_esteira</sprite>
+      <sprite>sprites\sp_esteiraR</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
@@ -33,15 +35,19 @@
   </scripts>
   <objects name="objects">
     <object>objects\c_solid</object>
-    <object>objects\c_interactive</object>
-    <object>objects\ct_init</object>
-    <object>objects\ct_main</object>
     <object>objects\cl_moves</object>
     <object>objects\cl_player</object>
-    <object>objects\o_changer</object>
-    <object>objects\o_gate</object>
-    <object>objects\o_esteira</object>
-    <object>objects\o_esteiraR</object>
+    <objects name="controllers">
+      <object>objects\ct_main</object>
+      <object>objects\ct_init</object>
+    </objects>
+    <objects name="interactive">
+      <object>objects\c_interactive</object>
+      <object>objects\o_changer</object>
+      <object>objects\o_esteira</object>
+      <object>objects\o_gate</object>
+      <object>objects\o_esteiraR</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>
