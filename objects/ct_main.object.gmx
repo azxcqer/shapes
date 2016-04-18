@@ -32,7 +32,7 @@ room_speed=60;
 global.bp = global.bpDefault
 restarting = false
 
-if room=w1_1
+if room=w0_1
 //or room=rm_test
 {
     global.gameon=true
@@ -59,7 +59,7 @@ backgrounder()
           <argument>
             <kind>1</kind>
             <string>///world setter
-
+/*
 if room = global.w1start {global.curWorld = 1}
 //if room = global.w2start {global.curWorld = 2}
 </string>
