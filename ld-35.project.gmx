@@ -22,6 +22,26 @@
       <sprite>sprites\sp_esteira</sprite>
       <sprite>sprites\sp_esteiraR</sprite>
     </sprites>
+    <sprites name="map editor">
+      <sprites name="changers">
+        <sprite>sprites\sp_changer0</sprite>
+        <sprite>sprites\sp_changer1</sprite>
+        <sprite>sprites\sp_changer2</sprite>
+        <sprite>sprites\sp_changer3</sprite>
+        <sprite>sprites\sp_changer4</sprite>
+        <sprite>sprites\sp_changer5</sprite>
+        <sprite>sprites\sp_changer6</sprite>
+      </sprites>
+      <sprites name="barriers">
+        <sprite>sprites\sp_barrier0</sprite>
+        <sprite>sprites\sp_barrier1</sprite>
+        <sprite>sprites\sp_barrier2</sprite>
+        <sprite>sprites\sp_barrier3</sprite>
+        <sprite>sprites\sp_barrier4</sprite>
+        <sprite>sprites\sp_barrier5</sprite>
+        <sprite>sprites\sp_barrier6</sprite>
+      </sprites>
+    </sprites>
     <sprite>sprites\sp_gate</sprite>
   </sprites>
   <backgrounds name="background">
@@ -52,6 +72,26 @@
       <object>objects\o_esteiraR</object>
     </objects>
     <object>objects\o_gate</object>
+    <objects name="room editor">
+      <objects name="changer">
+        <object>objects\o_changer0</object>
+        <object>objects\o_changer1</object>
+        <object>objects\o_changer2</object>
+        <object>objects\o_changer3</object>
+        <object>objects\o_changer4</object>
+        <object>objects\o_changer5</object>
+        <object>objects\o_changer6</object>
+      </objects>
+      <objects name="barriers">
+        <object>objects\o_barrier0</object>
+        <object>objects\o_barrier1</object>
+        <object>objects\o_barrier2</object>
+        <object>objects\o_barrier3</object>
+        <object>objects\o_barrier4</object>
+        <object>objects\o_barrier5</object>
+        <object>objects\o_barrier6</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>

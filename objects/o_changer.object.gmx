@@ -29,6 +29,8 @@
 event_inherited()
 active=true
 glower_init()
+//because of the map maper thingie
+sprite_index=sp_changer
 </string>
           </argument>
         </arguments>
