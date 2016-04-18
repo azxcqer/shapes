@@ -97,6 +97,7 @@
     <room>rooms\room_splash</room>
     <room>rooms\w1_1</room>
     <room>rooms\the_end</room>
+    <room>rooms\r_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
