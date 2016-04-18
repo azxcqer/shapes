@@ -30,7 +30,7 @@ event_inherited()
 jumpspeed=1.8
 dir=1
 form=0
-
+former_init()
 //var to set the room I came from to use in rooms with mutiple doors
 origin=noone 
 
@@ -109,6 +109,7 @@ and !global.paused
 if global.debugger {
     if keyboard_check_pressed(ord("Q")) {
     form++
+    form_change(form)
     }
 }
 
@@ -248,7 +249,7 @@ if o !=noone {
     if e=o_changer{
         if o.active=true {
             if form != f {
-                form=f
+                form_change(f)
             }
         }
     }

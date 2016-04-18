@@ -33,10 +33,11 @@
     <script>scripts\draw_text_shadow.gml</script>
     <script>scripts\glower.gml</script>
     <script>scripts\setSpeed.gml</script>
+    <script>scripts\form_change.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\c_solid</object>
     <object>objects\cl_moves</object>
+    <object>objects\c_solid</object>
     <object>objects\cl_player</object>
     <objects name="controllers">
       <object>objects\ct_main</object>
