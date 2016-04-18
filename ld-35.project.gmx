@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sp_solid</sprite>
+    <sprite>sprites\sp_playerM</sprite>
     <sprites name="player">
       <sprite>sprites\spPlayer0</sprite>
       <sprite>sprites\spPlayer1</sprite>
