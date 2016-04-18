@@ -100,9 +100,10 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>
-    <room>rooms\w1_1</room>
+    <room>rooms\w0_1</room>
     <room>rooms\the_end</room>
     <room>rooms\r_test</room>
+    <room>rooms\r_def</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
