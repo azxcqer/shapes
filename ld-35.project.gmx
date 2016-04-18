@@ -43,6 +43,7 @@
       </sprites>
     </sprites>
     <sprite>sprites\sp_gate</sprite>
+    <sprite>sprites\sp_portal</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
@@ -92,6 +93,7 @@
         <object>objects\o_barrier6</object>
       </objects>
     </objects>
+    <object>objects\o_portal</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>
