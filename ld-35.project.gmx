@@ -22,6 +22,7 @@
       <sprite>sprites\sp_esteira</sprite>
       <sprite>sprites\sp_esteiraR</sprite>
     </sprites>
+    <sprite>sprites\sp_gate</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
@@ -50,6 +51,7 @@
       <object>objects\o_barrier</object>
       <object>objects\o_esteiraR</object>
     </objects>
+    <object>objects\o_gate</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>

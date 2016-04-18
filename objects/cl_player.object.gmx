@@ -45,6 +45,8 @@ cX1=0
 cY1=0
 cX2=0
 cY2=0
+
+warping=false
 </string>
           </argument>
         </arguments>
@@ -97,6 +99,7 @@ event_inherited()
 //locking controllers out of custcenes and pause
 if !global.cutscene
 and !global.paused 
+and !warping
 {
     //Get the player's input
     key_right = keyboard_check(vk_right);
