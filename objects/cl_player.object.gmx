@@ -48,7 +48,7 @@ cY2=0
 
 warping=false
 
-sprite_index=sp_player0
+sprite_index=spPlayer0
 </string>
           </argument>
         </arguments>
