@@ -253,7 +253,7 @@ if o !=noone {
             }
         }
     }
-    if e=o_gate{
+    if e=o_barrier{
         if f = form {
             with o {
                 instance_destroy()

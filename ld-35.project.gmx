@@ -18,7 +18,7 @@
     </sprites>
     <sprites name="interactive">
       <sprite>sprites\sp_changer</sprite>
-      <sprite>sprites\sp_gate</sprite>
+      <sprite>sprites\sp_barrier</sprite>
       <sprite>sprites\sp_esteira</sprite>
       <sprite>sprites\sp_esteiraR</sprite>
     </sprites>
@@ -47,7 +47,7 @@
       <object>objects\c_interactive</object>
       <object>objects\o_changer</object>
       <object>objects\o_esteira</object>
-      <object>objects\o_gate</object>
+      <object>objects\o_barrier</object>
       <object>objects\o_esteiraR</object>
     </objects>
   </objects>
