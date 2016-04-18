@@ -29,7 +29,7 @@
 event_inherited()
 former=false
 image_speed=0.2
-wop=1.5
+wop=1.2
 setSpeed()
 </string>
           </argument>

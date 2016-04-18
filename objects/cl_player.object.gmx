@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///init vars
 event_inherited()
-jumpspeed=1.8
+jumpspeed=1.6
 dir=1
 form=0
 former_init()
