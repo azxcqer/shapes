@@ -7,6 +7,7 @@ form=a
 jumpspeed = jumpDef;
 movespeed = moveDef;
 grav = gravDef;
+invul=false
 switch a {
     case 2:
         movespeed*=moveMod
@@ -16,6 +17,10 @@ switch a {
         break
     case 6:
         grav*=gravMod
+        break
+    case 4:
+        invul=true
+        break
 }
 
 #define former_init
@@ -32,3 +37,4 @@ moveMod=1.5
 jumpMod=1.5
 //blue mod
 gravMod=0.5
+invul=false

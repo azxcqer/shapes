@@ -276,6 +276,12 @@ if o !=noone {
             x+=e.vspMod
         }
     }
+    if e=cl_hazard {
+        if !invul {
+        //play death sound
+        instance_destroy()
+        }
+    }
 }
 </string>
           </argument>
