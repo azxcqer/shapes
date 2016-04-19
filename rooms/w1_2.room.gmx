@@ -52,10 +52,29 @@
   </views>
   <instances>
     <instance objName="ct_main" x="0" y="0" name="inst_508E317D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="60" y="78" name="inst_9FDCA58D" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="66" y="126" name="inst_7695E588" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="120" y="78" name="inst_E1964920" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="cl_player" x="90" y="114" name="inst_084959C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="60" y="108" name="inst_C1FDABE9" locked="0" code="" scaleX="14" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_gate" x="45" y="54" name="inst_F9E62A27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_player" x="60" y="108" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="42" y="60" name="inst_8AB49388" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="o_changer2" x="144" y="78" name="inst_8064AD40" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_esteiraR" x="108" y="78" name="inst_8E6FC067" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_changer0" x="66" y="66" name="inst_A7D2F09E" locked="0" code="" scaleX="3.66666674613953" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_changer3" x="24" y="108" name="inst_FB7E6C19" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_barrier3" x="48" y="84" name="inst_81B9E451" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="66" y="72" name="inst_AC66C964" locked="0" code="" scaleX="5" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="36" y="66" name="inst_B01C4478" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="30" y="72" name="inst_81AE11AA" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="36" y="108" name="inst_F423ECCC" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="30" y="114" name="inst_08C3C0F0" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="150" y="84" name="inst_A1AAAE07" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="162" y="78" name="inst_60705F2C" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="96" y="84" name="inst_F23B6D4E" locked="0" code="" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="108" y="60" name="inst_E83E6EF8" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="96" y="48" name="inst_8E01C9A8" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="120" y="60" name="inst_F8A4E18E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="96" y="78" name="inst_C55EC0DA" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_barrier3" x="120" y="96" name="inst_459AA193" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="o_changer3" x="132" y="108" name="inst_AA85CB9C" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
