@@ -241,9 +241,11 @@ if !global.paused
           <argument>
             <kind>1</kind>
             <string>///collisions
-cX1=x-2
+//a fucking offset because i fucking hate myself holy shit motherfucker
+var fuckset=0.5
+cX1=x-2-fuckset
 cY1=y
-cX2=x+sprite_width
+cX2=x+sprite_width+fuckset
 cY2=y-sprite_height-2
 
 var o = collision_rectangle(cX1,cY1,cX2,cY2,c_interactive,false,true)
