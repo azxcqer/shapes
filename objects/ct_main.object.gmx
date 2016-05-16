@@ -88,7 +88,7 @@ if room = global.w1start {global.curWorld = 1}
     view_object[0] = cl_player;
     view_wview[0] = 180;
     view_hview[0] = 120;
-    view_hborder[0] = view_wview[0] - 75;
+    view_hborder[0] = view_wview[0] - 0;
     view_vborder[0] = view_hview[0] - 75;
 </string>
           </argument>
