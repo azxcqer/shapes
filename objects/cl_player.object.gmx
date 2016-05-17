@@ -250,38 +250,40 @@ cY2=y-sprite_height-2
 
 var o = collision_rectangle(cX1,cY1,cX2,cY2,c_interactive,false,true)
 
-if o !=noone {
-    var e = o.object_index,
-        f = o.form,
-        ox = o.x,
-        oy = o.y,
-        
-    if collision_point(ox,oy,o_changer,false,true){
-        if o.active=true {
-            if form != f {
-                form_change(f)
+if collisionActive {
+    if o !=noone {
+        var e = o.object_index,
+            f = o.form,
+            ox = o.x,
+            oy = o.y,
+            
+        if collision_point(ox,oy,o_changer,false,true){
+            if o.active=true {
+                if form != f {
+                    form_change(f)
+                }
             }
         }
-    }
-    if collision_point(ox,oy,o_barrier,false,true){
-        if f = form {
-            with o {
-                instance_destroy()
+        if collision_point(ox,oy,o_barrier,false,true){
+            if f = form {
+                with o {
+                    instance_destroy()
+                }
             }
         }
-    }
-    if e=o_esteira 
-    || e=o_esteiraR {
-        //this probably is not the best method... but it's effective for the time being
-        var offset = 1.2
-        if collision_line(x+offset,y+1,x+sprite_width-offset,y+1,o_esteira,false,true) {
-            x+=e.vspMod
+        if e=o_esteira 
+        || e=o_esteiraR {
+            //this probably is not the best method... but it's effective for the time being
+            var offset = 1.2
+            if collision_line(x+offset,y+1,x+sprite_width-offset,y+1,o_esteira,false,true) {
+                x+=e.vspMod
+            }
         }
-    }
-    if e=cl_hazard {
-        if !invul {
-        //play death sound
-        instance_destroy()
+        if e=cl_hazard {
+            if !invul {
+            //play death sound
+            instance_destroy()
+            }
         }
     }
 }
