@@ -31,6 +31,11 @@ floatTop = y - floatUp
 floatDown=0.5
 //the actual point again
 floatBot= y + floatDown
+//random float start
+//set a random point inside the floating range so multiple objects don't float the same
+floatRandom = irandom_range(floatTop, floatBot)
+y = floatRandom
+
 
 //how much time it does expend on the top/bottom
 floatCooldown=0.5*room_speed
