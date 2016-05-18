@@ -54,8 +54,7 @@
     <instance objName="ct_main" x="42" y="18" name="inst_508E317D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_gate" x="87" y="51" name="inst_F9E62A27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cl_player" x="84" y="126" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_changer2" x="48" y="102" name="inst_8064AD40" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_changer0" x="72" y="138" name="inst_A7D2F09E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_changer2" x="54" y="96" name="inst_8064AD40" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_changer3" x="66" y="126" name="inst_FB7E6C19" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_barrier3" x="66" y="102" name="inst_81B9E451" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_barrier2" x="96" y="114" name="inst_3EEBFA9A" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
