@@ -30,11 +30,16 @@
 target = cl_hazard
 //it's sprite
 targetSprite = sp_hazard
+//form
+//so I can create the changers and barriers with this
+form=0
 creatorReset()
 </string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -57,11 +62,14 @@ var rows = image_xscale,
     lines = image_yscale,
     i,
     o,
+    u,
 
 for (i=0; i &lt; rows; i++) {
-    instance_create(x + (i * targetWidth), y, target)    
+    u = instance_create(x + (i * targetWidth), y, target)
+    u.form = form
     for (o=0; o &lt; lines; o++) {
-        instance_create(x + (i * targetWidth), y + (o * targetHeight), target)
+        u = instance_create(x + (i * targetWidth), y + (o * targetHeight), target)
+        u.form = form
         }    
     }
 instance_destroy()
