@@ -54,18 +54,18 @@
     <instance objName="ct_main" x="0" y="0" name="inst_508E317D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_gate" x="162" y="102" name="inst_F9E62A27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cl_player" x="114" y="36" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="138" y="78" name="inst_B2CDE36E" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="138" y="78" name="inst_B2CDE36E" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="84" y="72" name="inst_B7500FBD" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="126" y="84" name="inst_DF215A68" locked="0" code="" scaleX="7.19999980926514" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="120" y="108" name="inst_C33B30E0" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="168" y="84" name="inst_650EDF58" locked="0" code="" scaleX="2" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="96" y="114" name="inst_CE748353" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="72" y="120" name="inst_1500704D" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="150" y="72" name="inst_85F0B5FC" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="162" y="66" name="inst_B55DAC13" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="54" y="114" name="inst_E3A7999B" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="36" y="108" name="inst_0567B8B9" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="18" y="102" name="inst_232EA98A" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="126" y="84" name="inst_DF215A68" locked="0" code="" scaleX="7.19999980926514" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="120" y="108" name="inst_C33B30E0" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="168" y="84" name="inst_650EDF58" locked="0" code="" scaleX="2" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="96" y="114" name="inst_CE748353" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="72" y="120" name="inst_1500704D" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="150" y="72" name="inst_85F0B5FC" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="162" y="66" name="inst_B55DAC13" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="54" y="114" name="inst_E3A7999B" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="36" y="108" name="inst_0567B8B9" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="18" y="102" name="inst_232EA98A" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_changer4" x="36" y="84" name="inst_02175C3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="108" y="48" name="inst_977A3EE8" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
