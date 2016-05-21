@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="ct_main" x="0" y="0" name="inst_508E317D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="60" y="108" name="inst_C1FDABE9" locked="0" code="" scaleX="14" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="60" y="108" name="inst_C1FDABE9" locked="0" code="" scaleX="12" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_gate" x="45" y="54" name="inst_F9E62A27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cl_player" x="60" y="108" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="42" y="60" name="inst_8AB49388" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
@@ -71,7 +71,7 @@
     <instance objName="c_solid" x="96" y="84" name="inst_F23B6D4E" locked="0" code="" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="108" y="60" name="inst_E83E6EF8" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="96" y="48" name="inst_8E01C9A8" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="120" y="60" name="inst_F8A4E18E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="114" y="54" name="inst_F8A4E18E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="96" y="78" name="inst_C55EC0DA" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_barrier3" x="120" y="96" name="inst_459AA193" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="o_changer3" x="132" y="108" name="inst_AA85CB9C" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
