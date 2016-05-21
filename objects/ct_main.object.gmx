@@ -366,8 +366,7 @@ if room=the_end
     var height = window_get_height()
     var width = window_get_width()
     var message = 
-        "
-        THANK YOU FOR PLAYING#
+        "THANK YOU FOR PLAYING#
         #Any kind of feedback is welcome.
         #Contact me on twitter (@Ardydo)
         #or at me@ardydo.com

@@ -60,8 +60,6 @@
     <instance objName="o_barrier2" x="96" y="114" name="inst_3EEBFA9A" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="60" y="102" name="inst_A6A0A110" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="78" y="90" name="inst_99215729" locked="0" code="" scaleX="3" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="o_changer3" x="66" y="126" name="inst_6F597560" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_changer3" x="66" y="126" name="inst_5FC4D316" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_barrier3" x="108" y="36" name="inst_DCA50528" locked="0" code="" scaleX="2" scaleY="13" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="108" y="114" name="inst_0BE21232" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="o_barrier2" x="78" y="60" name="inst_15434315" locked="0" code="" scaleX="3" scaleY="5" colour="4294967295" rotation="0"/>
