@@ -58,6 +58,8 @@
     <script>scripts\glower.gml</script>
     <script>scripts\setSpeed.gml</script>
     <script>scripts\form_change.gml</script>
+    <script>scripts\floaty.gml</script>
+    <script>scripts\creatorReset.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\cl_moves</object>
@@ -97,6 +99,7 @@
     </objects>
     <object>objects\o_portal</object>
     <object>objects\cl_hazard</object>
+    <object>objects\cl_creator</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>

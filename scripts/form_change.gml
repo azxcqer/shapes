@@ -32,7 +32,7 @@ gravDef = grav;
 
 //forms mods
 //lime speed mod
-moveMod=1.5
+moveMod=1.3
 //yellow jump mod
 jumpMod=1.5
 //blue mod
