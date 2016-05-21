@@ -28,6 +28,8 @@
             <string>///init vars
 target=0
 floatyInit()
+//if the warp will be delayed to play some sort of animation
+delayedWarp = false
 
 </string>
           </argument>
@@ -111,9 +113,14 @@ if other.warping=false {
     }
     
     if room_exists(target) {
-        alarm[0]=room_speed*1
-        with other {
-            warping=true
+        if delayedWarp {
+            alarm[0]=room_speed*1
+            with other {
+                warping=true
+            } 
+        }
+        else {
+            alarm[0]=1
         }
         
     }
