@@ -254,6 +254,8 @@ may be many more lines of code but clarity is so much fucking better
     trueY1 = y - offset,
     trueX2 = x + width - offset,
     trueY2 = y - height - offset,
+//offset due to faulty collision code. fix and remove later
+    horOffset = 0.4
     ;
 
 //vertical
@@ -263,9 +265,9 @@ vX2 = trueX2
 vY2 = trueY2 - range
 
 //horizontal
-hX1 = trueX1 - range
+hX1 = trueX1 - (range + horOffset)
 hY1 = trueY1
-hX2 = trueX2 + range
+hX2 = trueX2 + (range + horOffset)
 hY2 = trueY2
 
 if collisionActive {
