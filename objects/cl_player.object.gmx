@@ -40,15 +40,11 @@ if !landed
     vsp = global.exitvsp
 }
 
-//CIRCLE FUCK
-cX1=0
-cY1=0
-cX2=0
-cY2=0
-
 warping=false
 
 sprite_index=spPlayer0
+
+interactiveCollisionInit()
 </string>
           </argument>
         </arguments>
@@ -240,51 +236,50 @@ if !global.paused
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///collisions
-//a fucking offset because i fucking hate myself holy shit motherfucker
-var fuckset=0.5
-cX1=x-2-fuckset
-cY1=y
-cX2=x+sprite_width+fuckset
-cY2=y-sprite_height-2
+            <string>///interactive collisions
 
-var o = collision_rectangle(cX1,cY1,cX2,cY2,c_interactive,false,true)
+var width = sprite_width,
+    height = sprite_height,
+    range = interactiveColRange,
+/*
+Because gamemaker, nothing is really what it is so while setting the vars some of the 
+code got confusing because everything is offseted by a pixel so, down there, there where
+a lot o number and I coudn't tell what they were.
+
+I just made some vars to be clear of what the bloddy fuck is going on there 
+may be many more lines of code but clarity is so much fucking better
+*/
+    offset = 1,
+    trueX1 = x - offset,
+    trueY1 = y - offset,
+    trueX2 = x + width - offset,
+    trueY2 = y - height - offset,
+//offset due to faulty collision code. fix and remove later
+    horOffset = 0.4
+    ;
+
+//vertical
+vX1 = trueX1
+vY1 = trueY1 + range
+vX2 = trueX2
+vY2 = trueY2 - range
+
+//horizontal
+hX1 = trueX1 - (range + horOffset)
+hY1 = trueY1
+hX2 = trueX2 + (range + horOffset)
+hY2 = trueY2
 
 if collisionActive {
-    if o !=noone {
-        var e = o.object_index,
-            f = o.form,
-            ox = o.x,
-            oy = o.y,
-            
-        if collision_point(ox,oy,o_changer,false,true){
-            if o.active=true {
-                if form != f {
-                    form_change(f)
-                }
-            }
-        }
-        if collision_point(ox,oy,o_barrier,false,true){
-            if f = form {
-                with o {
-                    instance_destroy()
-                }
-            }
-        }
-        if e=o_esteira 
-        || e=o_esteiraR {
-            //this probably is not the best method... but it's effective for the time being
-            var offset = 1.2
-            if collision_line(x+offset,y+1,x+sprite_width-offset,y+1,o_esteira,false,true) {
-                x+=e.vspMod
-            }
-        }
-        if e=cl_hazard {
-            if !invul {
-            //play death sound
-            instance_destroy()
-            }
-        }
+    
+    var ver = collision_rectangle(vX1,vY1,vX2,vY2,c_interactive,false,true)
+    if ver != noone {
+        interactiveCollision(ver)
+    }
+    
+    var hor = collision_rectangle(hX1,hY1,hX2,hY2,c_interactive,false,true)
+    if hor != noone {
+        interactiveCollision(hor)
     }
 }
 </string>
@@ -316,9 +311,8 @@ draw_self()
 if global.debugger {
     var oldcolor = draw_get_color()
     draw_set_color(c_red)
-    draw_point(cX1,cY1)
-    draw_point(cX2,cY2)
-    draw_rectangle(cX1,cY1,cX2,cY2,true)
+    draw_rectangle(vX1,vY1,vX2,vY2,true)
+    draw_rectangle(hX1,hY1,hX2,hY2,true)
     draw_set_color(oldcolor)
 }
 </string>

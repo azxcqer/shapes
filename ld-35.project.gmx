@@ -60,6 +60,7 @@
     <script>scripts\form_change.gml</script>
     <script>scripts\floaty.gml</script>
     <script>scripts\creatorReset.gml</script>
+    <script>scripts\interactiveCollision.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\cl_moves</object>
