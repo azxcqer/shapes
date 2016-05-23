@@ -1,6 +1,6 @@
 # Shapes
 
-## A few worlds
+## A few words
 
 So, this game was my submission for Ludum Dare 35. After submitting it though, I didn't think much of it to be honest. I was happy with the results but didn't think it was really something that good.
 
