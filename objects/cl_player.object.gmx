@@ -310,9 +310,12 @@ draw_self()
 
 if global.debugger {
     var oldcolor = draw_get_color()
+    
     draw_set_color(c_red)
     draw_rectangle(vX1,vY1,vX2,vY2,true)
     draw_rectangle(hX1,hY1,hX2,hY2,true)
+    draw_sprite(sp_debug,0,x,y)
+    
     draw_set_color(oldcolor)
 }
 </string>
