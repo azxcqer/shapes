@@ -25,7 +25,7 @@ if e = o_esteira
     //this probably is not the best method... but it's effective for the time being
     var offset = 1.2
     if collision_line(x + offset, y + 1, x + sprite_width - offset, y + 1, o_esteira, false, true) {
-        x += e.vspMod
+        hsp += e.hspMod
     }
 }
 if e = cl_hazard {
