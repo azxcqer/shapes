@@ -1,0 +1,7 @@
+# may16
+
+The version at the end of month... even though there isn't really that much to add
+
+* Implemented cross collision detection
+* Room tweaks to make they more appealling and a few flow changes
+* Internal code improvement and cleanup
