@@ -46,6 +46,7 @@
     <sprite>sprites\sp_gate</sprite>
     <sprite>sprites\sp_portal</sprite>
     <sprite>sprites\sp_hazard</sprite>
+    <sprite>sprites\sp_debug</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
@@ -60,6 +61,7 @@
     <script>scripts\form_change.gml</script>
     <script>scripts\floaty.gml</script>
     <script>scripts\creatorReset.gml</script>
+    <script>scripts\interactiveCollision.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\cl_moves</object>
