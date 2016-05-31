@@ -26,6 +26,7 @@ switch a {
 
 #define former_init
 ///former_init
+form = 0
 lastForm = 1
 //storing the default values
 jumpDef = jumpspeed;

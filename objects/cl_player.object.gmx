@@ -29,7 +29,6 @@
 event_inherited()
 jumpspeed=1.6
 dir=1
-form=0
 former_init()
 //var to set the room I came from to use in rooms with mutiple doors
 origin=noone 
