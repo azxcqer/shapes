@@ -27,11 +27,11 @@
             <kind>1</kind>
             <string>///init vars
 event_inherited()
-jumpspeed=1.6
-dir=1
+jumpspeed = 1.6
+dir = 1
 former_init()
 //var to set the room I came from to use in rooms with mutiple doors
-origin=noone 
+origin = noone 
 
 //keeping momentum when changing rooms from on the air
 if !landed 
@@ -39,9 +39,9 @@ if !landed
     vsp = global.exitvsp
 }
 
-warping=false
+warping = false
 
-sprite_index=spPlayer0
+sprite_index = spPlayer0
 
 interactiveCollisionInit()
 </string>
@@ -66,7 +66,13 @@ interactiveCollisionInit()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_number(cl_player)&gt;1 &amp;&amp; origin != global.lastroom {instance_destroy()}
+            <string>///player instance eliminator
+//destroying the player instance if it's the wrong one
+if instance_number(cl_player)&gt;1 {
+    if origin != global.lastroom {
+        instance_destroy()
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -140,9 +146,6 @@ if landed
           <argument>
             <kind>1</kind>
             <string>///changing the player sprites
-/*
-who_am_i()
-*/
 //forming
 if lastForm != form {
     switch (form) {
@@ -171,8 +174,8 @@ if lastForm != form {
     }
 }
 
-if form&gt;6 {
-    form=0
+if form &gt; 6 {
+    form = 0
 }
 
 
