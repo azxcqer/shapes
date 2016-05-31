@@ -145,29 +145,31 @@ if landed
 who_am_i()
 */
 //forming
-switch (form) {
-    default:
-    case 0:
-    sprite_index=spPlayer0
-    break
-    case 1:
-    sprite_index=spPlayer1
-    break
-    case 2:
-    sprite_index=spPlayer2
-    break
-    case 3:
-    sprite_index=spPlayer3
-    break
-    case 4:
-    sprite_index=spPlayer4
-    break
-    case 5:
-    sprite_index=spPlayer5
-    break
-    case 6:
-    sprite_index=spPlayer6
-    break
+if lastForm != form {
+    switch (form) {
+        default:
+        case 0:
+        sprite_index = spPlayer0
+        break
+        case 1:
+        sprite_index = spPlayer1
+        break
+        case 2:
+        sprite_index = spPlayer2
+        break
+        case 3:
+        sprite_index = spPlayer3
+        break
+        case 4:
+        sprite_index = spPlayer4
+        break
+        case 5:
+        sprite_index = spPlayer5
+        break
+        case 6:
+        sprite_index = spPlayer6
+        break
+    }
 }
 
 if form&gt;6 {
