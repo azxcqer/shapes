@@ -115,7 +115,16 @@ and !warping
     else {
         key_left = 0
     }
-    key_jump = keyboard_check(vk_space);
+    
+    if keyboard_check(vk_space)
+    or keyboard_check(ord("W"))
+    or keyboard_check(vk_up)
+    {
+    key_jump = 1
+    }
+    else {
+        key_jump = 0
+    }
     //React to inputs
     dir = key_left + key_right;
 }
