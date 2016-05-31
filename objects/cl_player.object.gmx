@@ -105,9 +105,33 @@ and !global.paused
 and !warping
 {
     //Get the player's input
-    key_right = keyboard_check(vk_right);
-    key_left = -keyboard_check(vk_left);
-    key_jump = keyboard_check(vk_space);
+    if keyboard_check(vk_right)
+    or keyboard_check(ord("D"))
+    {
+        key_right = 1
+    }
+    else {
+        key_right = 0
+    }
+    
+    if keyboard_check(vk_left)
+    or keyboard_check(ord("A"))
+    {
+        key_left = -1
+    }
+    else {
+        key_left = 0
+    }
+    
+    if keyboard_check(vk_space)
+    or keyboard_check(ord("W"))
+    or keyboard_check(vk_up)
+    {
+    key_jump = 1
+    }
+    else {
+        key_jump = 0
+    }
     //React to inputs
     dir = key_left + key_right;
 }
