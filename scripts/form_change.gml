@@ -2,7 +2,7 @@
 ///former_change(form)
 //changes the form to the other form
 var a=argument0
-lasfForm = form
+lastForm = form
 form=a
 //set de default because all the forms use this even to calculate the mods
 jumpspeed = jumpDef;
