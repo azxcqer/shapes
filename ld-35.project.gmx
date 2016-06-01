@@ -105,6 +105,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>
+    <rooms name="w0">
+      <room>rooms\w0_1</room>
+    </rooms>
     <room>rooms\the_end</room>
     <rooms name="gamejam worlds">
       <rooms name="w0">
