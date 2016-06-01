@@ -105,6 +105,7 @@ Level Planning
 
             2 don't fall off
                 some horizontal plataforming and you killing yourself
+                so. the game isn't quite the same for horizontal plataforming, so i'm changing this for the time being.
             
             3 don't fall on the hazards
                 they also kill
@@ -139,12 +140,6 @@ Level Planning
                 green challenge
                 the exit is blocked by a yellow block
                 the yellow changer is hidden by a green block
-
-
-
-
-
-
 
 Game jam
 level planning
