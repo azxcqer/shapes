@@ -96,11 +96,50 @@ Level Planning
             1 the end
                 dificult curve to the max just to present some of the challenges that the actual game could present
     
-    w0 basics
-        OBJECTIVE: Introduce the basic mechanics of the game
+    NEW LEVELS
+        w0 basics
+            OBJECTIVE: Introduce the basic mechanics of the game
 
-        1 - portal
-            get to that portal
+            1 portal
+                get to that portal
+
+            2 don't fall off
+                some horizontal plataforming and you killing yourself
+            
+            3 don't fall on the hazards
+                they also kill
+
+            4 go the distance
+                get familiar with the jump distance
+
+            5 go the heiht
+                get familiar with the jump height
+
+        w1 green
+            OBJECTIVE: Introduce changers and forms
+
+            1 gotta go fast
+                green changer
+                it's fast
+                black changer
+                a long strech of ground, then you go back green fast and in the end you go back to black slow
+
+            2  green blocks
+                green blocks
+                    start trapped, change color and open the block
+                    watchout for black chngers
+
+            3 esteiras
+                more puzzle and a single esteira to introduce
+
+            4 esteirado
+                more puzzle with esteiras
+
+            5 what color is this?
+                green challenge
+                the exit is blocked by a yellow block
+                the yellow changer is hidden by a green block
+
 
 
 
