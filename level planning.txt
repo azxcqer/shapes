@@ -106,6 +106,8 @@ Level Planning
             2 don't fall off
                 some horizontal plataforming and you killing yourself
                 so. the game isn't quite the same for horizontal plataforming, so i'm changing this for the time being.
+                it will show the max jump range and maybe cause some falls.
+                maybe.
             
             3 don't fall on the hazards
                 they also kill
