@@ -108,6 +108,8 @@
     <rooms name="w0">
       <room>rooms\w0_1</room>
       <room>rooms\w0_2</room>
+      <room>rooms\w0_3</room>
+      <room>rooms\w0_4</room>
     </rooms>
     <room>rooms\the_end</room>
     <rooms name="gamejam worlds">
