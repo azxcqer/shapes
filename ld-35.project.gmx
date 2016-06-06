@@ -112,6 +112,16 @@
       <room>rooms\w0_4</room>
       <room>rooms\w0_5</room>
     </rooms>
+    <rooms name="w1">
+      <room>rooms\w1_1_old</room>
+      <room>rooms\w1_2_old</room>
+      <room>rooms\w1_3_old</room>
+      <room>rooms\w0_2_old</room>
+      <room>rooms\w1_5_old</room>
+    </rooms>
+    <rooms name="w2">
+      <room>rooms\w2_1_old</room>
+    </rooms>
     <room>rooms\the_end</room>
     <rooms name="gamejam worlds">
       <rooms name="w0">
@@ -119,16 +129,6 @@
         <room>rooms\w0_3_old</room>
         <room>rooms\w0_4_old</room>
         <room>rooms\w0_5_old</room>
-      </rooms>
-      <rooms name="w1">
-        <room>rooms\w1_1_old</room>
-        <room>rooms\w1_2_old</room>
-        <room>rooms\w1_3_old</room>
-        <room>rooms\w0_2_old</room>
-        <room>rooms\w1_5_old</room>
-      </rooms>
-      <rooms name="w2">
-        <room>rooms\w2_1_old</room>
       </rooms>
     </rooms>
     <room>rooms\r_test</room>
