@@ -6,12 +6,14 @@ if collisionActive=true {
     if !global.paused {
         // vertical speed
         vsp += grav
-        
+        var magic = 0.9
         //Horizontal Collision
         if (place_meeting(x + hsp, y, c_solid) ) {
-            while(!place_meeting(x + sign(hsp), y, c_solid)) {
-                x += sign(hsp);
+            var s = sign(hsp)*magic
+            while(!place_meeting(x + s, y, c_solid)) {
+                x += s;
             }
+            
             hsp = 0;
         }
         
@@ -19,14 +21,18 @@ if collisionActive=true {
         
         //Vertical Collision
         if (place_meeting(x, y + vsp, c_solid)) {
-            while(!place_meeting(x, y + sign(vsp), c_solid)) {
-                y += sign(vsp);
+            var d = sign(vsp)*magic
+            while(!place_meeting(x, y + d, c_solid)) {
+                y += d;
             }
+            
                 vsp = 0;
         }
-        
-        y = round(y) + round(vsp);
-    
+        if vsp = 0 {
+            y = round(y)
+        } else {
+            y += round(vsp);
+        }    
     } else { 
         x = x;
         y = y
