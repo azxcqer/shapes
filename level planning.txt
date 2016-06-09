@@ -143,6 +143,8 @@ Level Planning
                 the exit is blocked by a yellow block
                 the yellow changer is hidden by a green block
 
+        w3 lotsa jumping
+
 Game jam
 level planning
     w0 basics
