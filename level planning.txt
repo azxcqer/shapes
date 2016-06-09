@@ -104,8 +104,8 @@ Level Planning
                 get to that portal
 
             2 don't fall off
-                some horizontal plataforming and you killing yourself
-                so. the game isn't quite the same for horizontal plataforming, so i'm changing this for the time being.
+                some vertical plataforming and you killing yourself
+                so. the game isn't quite the same for vertical plataforming, so i'm changing this for the time being.
                 it will show the max jump range and maybe cause some falls.
                 maybe.
             
@@ -115,8 +115,8 @@ Level Planning
             4 go the distance
                 get familiar with the jump distance
 
-            5 go the heiht
-                get familiar with the jump height
+            5 go the all of them
+                get familiar with the jumping again
 
         w1 green
             OBJECTIVE: Introduce changers and forms
