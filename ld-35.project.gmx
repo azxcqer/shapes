@@ -64,8 +64,8 @@
     <script>scripts\interactiveCollision.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\cl_moves</object>
     <object>objects\c_solid</object>
+    <object>objects\cl_moves</object>
     <object>objects\cl_player</object>
     <objects name="controllers">
       <object>objects\ct_main</object>
