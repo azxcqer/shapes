@@ -279,10 +279,11 @@ may be many more lines of code but clarity is so much fucking better
 */
     offset = 1,
     trueX1 = x - offset,
-    trueY1 = y - offset,
-    trueX2 = x + width - offset,
-    trueY2 = y - height - offset,
+    trueY1 = y,
+    trueX2 = trueX1 + width,
+    trueY2 = trueY1 - height,
 //offset due to faulty collision code. fix and remove later
+//i don't know if it's the code or just life in general to be honest
     horOffset = 0.4
     ;
 
