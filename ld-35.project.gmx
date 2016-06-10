@@ -64,8 +64,8 @@
     <script>scripts\interactiveCollision.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\cl_moves</object>
     <object>objects\c_solid</object>
+    <object>objects\cl_moves</object>
     <object>objects\cl_player</object>
     <objects name="controllers">
       <object>objects\ct_main</object>
@@ -113,11 +113,11 @@
       <room>rooms\w0_5</room>
     </rooms>
     <rooms name="w1">
-      <room>rooms\w1_1_old</room>
-      <room>rooms\w1_2_old</room>
-      <room>rooms\w1_3_old</room>
-      <room>rooms\w0_2_old</room>
-      <room>rooms\w1_5_old</room>
+      <room>rooms\w1_1</room>
+      <room>rooms\w1_2</room>
+      <room>rooms\w1_3</room>
+      <room>rooms\w1_4</room>
+      <room>rooms\w1_5</room>
     </rooms>
     <rooms name="w2">
       <room>rooms\w2_1_old</room>
@@ -129,6 +129,13 @@
         <room>rooms\w0_3_old</room>
         <room>rooms\w0_4_old</room>
         <room>rooms\w0_5_old</room>
+      </rooms>
+      <rooms name="w1">
+        <room>rooms\w1_1_old</room>
+        <room>rooms\w1_2_old</room>
+        <room>rooms\w1_3_old</room>
+        <room>rooms\w0_2_old</room>
+        <room>rooms\w1_5_old</room>
       </rooms>
     </rooms>
     <room>rooms\r_test</room>
