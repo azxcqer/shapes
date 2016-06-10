@@ -45,7 +45,8 @@ global.bpClear = 3
 global.bp = global.bpDefault
 
 //worlds variables
-//global.w1start = w1_1
+global.w0Start = w0_1
+global.w1Start = w1_1
 //global.w2start = w2_1
 
 global.worldClear = -1
