@@ -23,8 +23,8 @@ if collision_point(ox, oy, o_barrier, false, true){
 if e = o_esteira 
 || e = o_esteiraR {
     //this probably is not the best method... but it's effective for the time being
-    var offset = 1.2
-    if collision_line(x + offset, y + 1, x + sprite_width - offset, y + 1, o_esteira, false, true) {
+    var offset = 1.5
+    if collision_line(x - offset, y + 1, x + sprite_width + offset, y + 1, o_esteira, false, true) {
         hsp += e.hspMod
     }
 }
