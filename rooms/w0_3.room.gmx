@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="ct_main" x="0" y="0" name="inst_508E317D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_player" x="36" y="114" name="inst_64B08395" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_player" x="36" y="113" name="inst_64B08395" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="30" y="114" name="inst_E9CB9786" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_gate" x="159" y="108" name="inst_8B4064EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="90" y="114" name="inst_897C1D1E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>

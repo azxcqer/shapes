@@ -54,7 +54,7 @@
     <instance objName="ct_main" x="0" y="0" name="inst_508E317D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="60" y="108" name="inst_C1FDABE9" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_gate" x="120" y="102" name="inst_F9E62A27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_player" x="60" y="108" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_player" x="60" y="107" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="90" y="78" name="inst_8AB49388" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="o_esteira" x="78" y="108" name="inst_7A3E3D66" locked="0" code="" scaleX="1.66666662693024" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_changer2" x="36" y="102" name="inst_8064AD40" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>

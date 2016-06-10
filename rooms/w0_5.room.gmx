@@ -54,7 +54,7 @@
     <instance objName="ct_main" x="0" y="0" name="inst_508E317D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="60" y="108" name="inst_C1FDABE9" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_gate" x="48" y="54" name="inst_F9E62A27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_player" x="60" y="108" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_player" x="60" y="107" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="84" y="108" name="inst_EF4D0832" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="78" y="96" name="inst_F605469B" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="114" y="78" name="inst_04F50BEC" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>

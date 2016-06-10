@@ -53,7 +53,7 @@
   <instances>
     <instance objName="ct_main" x="54" y="30" name="inst_508E317D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_gate" x="156" y="102" name="inst_F9E62A27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_player" x="126" y="78" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_player" x="126" y="77" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_barrier4" x="78" y="108" name="inst_41DC6218" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="144" y="78" name="inst_4AAB81BF" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="162" y="78" name="inst_7C2CB69C" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
