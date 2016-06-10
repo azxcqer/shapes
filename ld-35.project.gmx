@@ -115,6 +115,7 @@
     <rooms name="w1">
       <room>rooms\w1_1</room>
       <room>rooms\w1_2</room>
+      <room>rooms\w1_3</room>
     </rooms>
     <rooms name="w2">
       <room>rooms\w2_1_old</room>
