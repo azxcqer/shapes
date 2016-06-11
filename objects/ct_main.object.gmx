@@ -32,7 +32,7 @@ room_speed=60;
 global.bp = global.bpDefault
 restarting = false
 
-if room=w0_1
+if room != room_splash
 //or room=rm_test
 {
     global.gameon=true

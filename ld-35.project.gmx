@@ -105,13 +105,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>
-    <rooms name="w0">
-      <room>rooms\w0_1</room>
-      <room>rooms\w0_2</room>
-      <room>rooms\w0_3</room>
-      <room>rooms\w0_4</room>
-      <room>rooms\w0_5</room>
-    </rooms>
     <rooms name="w1">
       <room>rooms\w1_1</room>
       <room>rooms\w1_2</room>
@@ -120,6 +113,13 @@
       <room>rooms\w1_5</room>
     </rooms>
     <rooms name="w2">
+      <room>rooms\w2_1</room>
+      <room>rooms\w2_2</room>
+      <room>rooms\w2_3</room>
+      <room>rooms\w2_4</room>
+      <room>rooms\w2_5</room>
+    </rooms>
+    <rooms name="w3">
       <room>rooms\w2_1_old</room>
     </rooms>
     <room>rooms\the_end</room>

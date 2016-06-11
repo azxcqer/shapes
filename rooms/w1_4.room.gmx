@@ -52,22 +52,19 @@
   </views>
   <instances>
     <instance objName="ct_main" x="0" y="0" name="inst_508E317D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_player" x="90" y="89" name="inst_BC73672F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_gate" x="60" y="108" name="inst_54D62832" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="84" y="90" name="inst_3DF26160" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_esteira" x="102" y="90" name="inst_152F7380" locked="0" code="" scaleX="1.33333337306976" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_changer2" x="54" y="84" name="inst_4984DDBC" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="108" y="60" name="inst_5C2DCB62" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="114" y="78" name="inst_CD627DC7" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_changer0" x="126" y="108" name="inst_5C195C83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="102" y="114" name="inst_C6F3690F" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="132" y="78" name="inst_3B18981F" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="o_changer2" x="84" y="96" name="inst_F3FD999C" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="90" y="102" name="inst_78CD8721" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_esteiraR" x="78" y="114" name="inst_4ED28165" locked="0" code="" scaleX="1.33333337306976" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="72" y="84" name="inst_3C8532F5" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="48" y="90" name="inst_130806A8" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="54" y="114" name="inst_85E6444B" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_player" x="36" y="113" name="inst_64B08395" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="30" y="114" name="inst_E9CB9786" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_gate" x="159" y="108" name="inst_8B4064EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="90" y="114" name="inst_897C1D1E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="138" y="114" name="inst_47FF0842" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="54" y="84" name="inst_626140E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="66" y="84" name="inst_B247E766" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="84" y="84" name="inst_96EC5990" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="102" y="84" name="inst_4C067C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="114" y="84" name="inst_62E64E54" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="132" y="84" name="inst_674DF950" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="54" y="120" name="inst_F6CDFDD7" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="102" y="120" name="inst_40C9299A" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

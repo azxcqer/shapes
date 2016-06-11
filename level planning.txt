@@ -97,7 +97,7 @@ Level Planning
                 dificult curve to the max just to present some of the challenges that the actual game could present
     
     NEW LEVELS
-        w0 basics
+        w1 basics
             OBJECTIVE: Introduce the basic mechanics of the game
 
             1 portal
@@ -118,7 +118,7 @@ Level Planning
             5 go the all of them
                 get familiar with the jumping again
 
-        w1 green
+        w2 green
             OBJECTIVE: Introduce changers and forms
 
             1 gotta go fast

@@ -52,23 +52,16 @@
   </views>
   <instances>
     <instance objName="ct_main" x="0" y="0" name="inst_508E317D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="60" y="108" name="inst_C1FDABE9" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_gate" x="48" y="54" name="inst_F9E62A27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_player" x="60" y="107" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="84" y="108" name="inst_EF4D0832" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="78" y="96" name="inst_F605469B" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="114" y="78" name="inst_04F50BEC" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="126" y="102" name="inst_1B2F8348" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="132" y="90" name="inst_617DBC14" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="138" y="72" name="inst_A1FF5984" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="108" y="72" name="inst_61BC8353" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="102" y="60" name="inst_CE2F430D" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="36" y="60" name="inst_24CA8050" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="48" y="96" name="inst_2D3FEA81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="42" y="90" name="inst_545B2ED6" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="36" y="84" name="inst_33465FF5" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="30" y="78" name="inst_EB4AF688" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="24" y="60" name="inst_F16C843B" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="cl_player" x="42" y="59" name="inst_BC73672F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_gate" x="108" y="90" name="inst_54D62832" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="36" y="60" name="inst_383AFE83" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_changer2" x="126" y="78" name="inst_6DA3428D" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="54" y="78" name="inst_267FF16B" locked="0" code="" scaleX="12" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="60" y="96" name="inst_EEF0C961" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="36" y="66" name="inst_C950F13E" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="144" y="60" name="inst_64CC373E" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="o_changer0" x="42" y="96" name="inst_23DFB771" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="114" y="84" name="inst_35B1ED4B" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
