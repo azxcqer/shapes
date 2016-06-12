@@ -47,6 +47,7 @@
     <sprite>sprites\sp_portal</sprite>
     <sprite>sprites\sp_hazard</sprite>
     <sprite>sprites\sp_debug</sprite>
+    <sprite>sprites\sp_pallet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
