@@ -5,7 +5,6 @@ if collisionActive=true {
     landed=place_meeting(x, y + 1, c_solid) && vsp==0
     if !global.paused {
         // vertical speed
-        vsp += grav
         var magic = 0.9
         //Horizontal Collision
         if (place_meeting(x + hsp, y, c_solid) ) {
@@ -28,9 +27,8 @@ if collisionActive=true {
             
                 vsp = 0;
         }
-        if vsp = 0 {
-            y = round(y)
-        } else {
+        else {
+            vsp += grav
             y += round(vsp);
         }    
     } else { 
