@@ -56,7 +56,7 @@
     <instance objName="o_gate" x="60" y="54" name="inst_F9E62A27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cl_player" x="72" y="107" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="90" y="96" name="inst_F605469B" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="126" y="78" name="inst_04F50BEC" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="126" y="78" name="inst_04F50BEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="126" y="102" name="inst_1B2F8348" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="144" y="90" name="inst_617DBC14" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="150" y="72" name="inst_A1FF5984" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
@@ -76,7 +76,7 @@
     <instance objName="c_solid" x="138" y="96" name="inst_F284E445" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="114" y="72" name="inst_45FA13A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="120" y="78" name="inst_EF382331" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="114" y="84" name="inst_C78AC4C8" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="114" y="84" name="inst_C78AC4C8" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="114" y="78" name="inst_6347803D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="108" y="66" name="inst_76A0E5D6" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>

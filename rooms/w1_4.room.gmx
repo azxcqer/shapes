@@ -66,7 +66,7 @@
     <instance objName="c_solid" x="90" y="120" name="inst_E538FF92" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="30" y="120" name="inst_819C0849" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="150" y="120" name="inst_073A65AF" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_hazard" x="42" y="132" name="inst_B42694DA" locked="0" code="" scaleX="19" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="42" y="132" name="inst_B42694DA" locked="0" code="" scaleX="19" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="54" y="78" name="inst_1C893418" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="60" y="72" name="inst_AB04E8C8" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="114" y="78" name="inst_B97A8A90" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
