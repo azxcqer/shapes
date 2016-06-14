@@ -228,6 +228,9 @@ if global.gameon {
     if keyboard_check_pressed(vk_f2){
         room_goto(global.w2Start)
     }
+    if keyboard_check_pressed(vk_f12){
+        room_goto(global.wGameJamStart)
+    }
 }
 </string>
           </argument>

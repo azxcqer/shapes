@@ -47,6 +47,7 @@ global.bp = global.bpDefault
 //worlds variables
 global.w1Start = w1_1
 global.w2Start = w2_1
+global.wGameJamStart = w0_1_old
 //global.w2start = w2_1
 
 global.worldClear = -1
