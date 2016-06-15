@@ -120,6 +120,7 @@
       <room>rooms\w2_5</room>
     </rooms>
     <rooms name="w3">
+      <room>rooms\w3_0</room>
       <room>rooms\w3_1</room>
     </rooms>
     <room>rooms\the_end</room>
