@@ -6,7 +6,7 @@ if collisionActive=true {
     unstucker()
     if !global.paused {
         // vertical speed
-        var magic = 0.8
+        var magic = 0.9
         //Horizontal Collision
         if (place_meeting(x + hsp, y, c_solid) ) {
             var s = sign(hsp)*magic
