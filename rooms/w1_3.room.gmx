@@ -70,6 +70,7 @@
     <instance objName="c_solid" x="60" y="72" name="inst_4E3D2894" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="114" y="78" name="inst_751D0B07" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="120" y="72" name="inst_9CA9AA0B" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="108" y="126" name="inst_45A95218" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
