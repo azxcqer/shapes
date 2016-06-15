@@ -1,3 +1,22 @@
+# jogatinaJun16 (19/06/2016)
+The version I took to Jogatina com Prosa. A local indie dev meeting
+
+## Gameplay
+* Extra keys - now supporting WASD and up keys to jump.
+* Lowered green form speed to make it easier to control
+* Lowered esteira drag speed because of this
+* World 1 and 2 remade
+* Lots and lots of small collision changes
+* F keys now used to warp around worlds
+
+## Other
+* changed world naming because world 0 was a stupid idea, so the first world is w1
+* Lots of small bugfixes
+* f12 take you to the old levels
+
+
+
+
 # may16 (29/05/2016)
 The version at the end of month... even though there isn't really that much to add
 
