@@ -13,9 +13,7 @@ The version I took to Jogatina com Prosa. A local indie dev meeting
 * changed world naming because world 0 was a stupid idea, so the first world is w1
 * Lots of small bugfixes
 * f12 take you to the old levels
-
-
-
+* Camera stutter when on esteiras fixed
 
 # may16 (29/05/2016)
 The version at the end of month... even though there isn't really that much to add
