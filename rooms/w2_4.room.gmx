@@ -63,10 +63,10 @@
     <instance objName="o_esteiraR" x="84" y="114" name="inst_4ED28165" locked="0" code="" scaleX="1.33333337306976" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="72" y="84" name="inst_3C8532F5" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="42" y="90" name="inst_130806A8" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="54" y="114" name="inst_85E6444B" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="72" y="120" name="inst_1D3BA0E3" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="54" y="114" name="inst_85E6444B" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_creator" x="66" y="120" name="inst_1D3BA0E3" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="48" y="96" name="inst_0AC65D66" locked="0" code="" scaleX="12" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="60" y="120" name="inst_A7CFC5DD" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="60" y="120" name="inst_A7CFC5DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="84" y="120" name="inst_50B50802" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="132" y="108" name="inst_3EEC07E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="c_solid" x="138" y="78" name="inst_FE07511A" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
