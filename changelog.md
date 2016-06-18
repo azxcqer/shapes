@@ -1,4 +1,4 @@
-# jogatinaJun16 (19/06/2016)
+# jogatinaJun16 (18/06/2016)
 The version I took to Jogatina com Prosa. A local indie dev meeting
 
 ## Gameplay
