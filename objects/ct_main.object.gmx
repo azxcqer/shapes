@@ -32,7 +32,7 @@ room_speed=60;
 global.bp = global.bpDefault
 restarting = false
 
-if room=w0_1
+if room != room_splash
 //or room=rm_test
 {
     global.gameon=true
@@ -221,8 +221,18 @@ if global.gameon {
     }
     
     //restart
+    //or room warps
     if keyboard_check_pressed(vk_f1){
-        room_goto(w0_1)
+        room_goto(global.w1Start)
+    }
+    if keyboard_check_pressed(vk_f2){
+        room_goto(global.w2Start)
+    }
+    if keyboard_check_pressed(vk_f3){
+        room_goto(global.w3Start)
+    }
+    if keyboard_check_pressed(vk_f12){
+        room_goto(global.wGameJamStart)
     }
 }
 </string>
@@ -288,6 +298,37 @@ if global.debugger
         room_goto(global.w2start);
         }
     */
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///camera control
+var a = view_object[0]
+if instance_exists(a) {
+    var b = a.hsp;
+    if b != 0 {
+        view_hspeed[0] = abs(b);    
+    }
+    else {
+        view_hspeed[0] = -1
+    }
 }
 </string>
           </argument>

@@ -2,6 +2,7 @@
 ///former_change(form)
 //changes the form to the other form
 var a=argument0
+lastForm = form
 form=a
 //set de default because all the forms use this even to calculate the mods
 jumpspeed = jumpDef;
@@ -25,6 +26,8 @@ switch a {
 
 #define former_init
 ///former_init
+form = 0
+lastForm = 1
 //storing the default values
 jumpDef = jumpspeed;
 moveDef = movespeed;

@@ -2,16 +2,18 @@
 ///collision()
 //because I figured that everybody didn't put the collision code on a script just for funsies
 if collisionActive=true {
-    landed=place_meeting(x, y + 1, c_solid) && vsp==0
+    landed = place_meeting(x, y + 1, c_solid) && vsp == 0
+    unstucker()
     if !global.paused {
         // vertical speed
-        vsp += grav
-        
+        var magic = 0.9
         //Horizontal Collision
         if (place_meeting(x + hsp, y, c_solid) ) {
-            while(!place_meeting(x + sign(hsp), y, c_solid)) {
-                x += sign(hsp);
+            var s = sign(hsp)*magic
+            while(!place_meeting(x + s, y, c_solid)) {
+                x += s;
             }
+            
             hsp = 0;
         }
         
@@ -19,14 +21,16 @@ if collisionActive=true {
         
         //Vertical Collision
         if (place_meeting(x, y + vsp, c_solid)) {
-            while(!place_meeting(x, y + sign(vsp), c_solid)) {
-                y += sign(vsp);
+            var d = sign(vsp)*magic
+            while(!place_meeting(x, y + d, c_solid)) {
+                y += d;
             }
-                vsp = 0;
+            vsp = 0;
         }
-        
-        y = round(y) + round(vsp);
-    
+        else {
+            vsp += grav
+            y += round(vsp);
+        }    
     } else { 
         x = x;
         y = y
@@ -53,3 +57,8 @@ movespeed = 1;
 dir = -1
 landed = false
 collisionActive = true
+#define unstucker
+//unstucker()
+while place_meeting(x, y, c_solid) {
+    y -= 0.8
+}
