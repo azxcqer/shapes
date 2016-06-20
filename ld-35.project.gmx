@@ -119,6 +119,9 @@
       <room>rooms\w2_4</room>
       <room>rooms\w2_5</room>
     </rooms>
+    <rooms name="w3">
+      <room>rooms\w3_1</room>
+    </rooms>
     <rooms name="w4">
       <room>rooms\w4_0</room>
       <room>rooms\w4_1</room>
