@@ -29,7 +29,7 @@ if collisionActive=true {
         }
         else {
             vsp += grav
-            y += round(vsp);
+            y += (vsp);
         }    
     } else { 
         x = x;
@@ -61,4 +61,17 @@ collisionActive = true
 //unstucker()
 while place_meeting(x, y, c_solid) {
     y -= 0.8
+}
+if landed {
+    var a = floor(y),
+        b = ceil(y),
+        c = abs(y - a),
+        d = abs(y - b)
+        
+    if c < d {
+        y = a
+    }
+    if d < c {
+        y = b
+    }
 }
