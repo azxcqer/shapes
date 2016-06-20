@@ -223,16 +223,16 @@ if global.gameon {
     //restart
     //or room warps
     if keyboard_check_pressed(vk_f1){
-        room_goto(global.w1Start)
+        warp(global.w1Start)
     }
     if keyboard_check_pressed(vk_f2){
-        room_goto(global.w2Start)
+        warp(global.w2Start)
     }
     if keyboard_check_pressed(vk_f3){
-        room_goto(global.w3Start)
+        warp(global.w3Start)
     }
     if keyboard_check_pressed(vk_f12){
-        room_goto(global.wGameJamStart)
+        warp(global.wGameJamStart)
     }
 }
 </string>
