@@ -232,7 +232,7 @@ if global.gameon {
         warp(global.w3Start)
     }
     if keyboard_check_pressed(vk_f4){
-        room_goto(global.w4Start)
+        warp(global.w4Start)
     }
     if keyboard_check_pressed(vk_f12){
         warp(global.wGameJamStart)
