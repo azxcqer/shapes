@@ -144,6 +144,19 @@ Level Planning
                 the yellow changer is hidden by a green block
 
         w3 lotsa jumping
+            OBJECTIVE: explain further yellow and mixed colors
+
+            1 yellow height
+                explaining the yellow jump height
+
+            2 ???
+
+            3 ???
+
+            4 ???
+
+            5 immortal
+                seeing red
 
 Game jam
 level planning
