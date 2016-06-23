@@ -53,6 +53,8 @@ global.wGameJamStart = w0_1_old
 //global.w2start = w2_1
 
 global.worldClear = -1
+
+global.skipTo = 0
 </string>
           </argument>
         </arguments>
@@ -97,12 +99,13 @@ window_set_cursor(cr_none)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.testing
-{
-    room_goto(rm_test)
+            <string>///room skipping or something
+var a = global.skipTo;
+
+if a != 0 {
+    warp(a)
 }
-else
-{
+else {
     room_goto_next()
 }
 </string>
