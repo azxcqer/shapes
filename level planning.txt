@@ -58,43 +58,6 @@ Game Mechanics
 
 Level Planning
 
-    CURRENT LEVELS
-
-        w0
-            1 portal
-
-            2 hazards
-                moved to w1
-
-            3 jump height and distance
-
-            4 green form
-                green changer
-                green blocks
-
-            5 black changer
-                you can change back and stuff
-
-        w1 or when I TURNED UP THE HEAT and rushed everything
-            1 esteira
-           
-            2 yellow blocks
-                and more esteiras
-                and more blocks
-
-            3 yellow and green blocks
-                using multiple back and forth color changes
-
-            4 hazard
-                it's actally w0-2
-                because I didn't have time to plan it properly x)
-
-            5 hazarder
-                stupid level making it clear that this red and yellow thingies kills
-
-        w2 or the world that never was
-            1 the end
-                dificult curve to the max just to present some of the challenges that the actual game could present
     
     NEW LEVELS
         w1 basics
@@ -152,49 +115,14 @@ Level Planning
             2 mixed
                 old yellow and lime stage
 
-            3 lemons and lime chequers
-                cuz this name is too good to not put it here
-                cross sections of various colors
-
-            4 air movement
+            3 air movement
                 teaching that sometimes you need to move in the air
                 fuck physics
                 get portals
 
+            4 puzzles with yellow
+
             5 immortal
                 seeing red
 
-Game jam
-level planning
-    w0 basics
-        portal
-        hazard
-        distance and height
-        not mature barriers
-        pay attention (just lots of color changing so you get the gist of it)
-    w1 lime
-        esteiras (basics)
-        i don't care what they're called (application)
-        yelly (intro)
-        lime yellow (yellow and lime challeges)
-        that's the dumbest name for a color mix (moar)
-    w2 yellow
-        radical (basics)
-        up and up (application)
-        headbutt(using other blocks to jump shorter)
-        don't worry (intro)
-        be happy(challenge)
-    w3 red
-        imortal (obstacle course)
-        death (application)
-    w4 finalmixxxxx
-        taxes (moar)
-        depresion(easy to see the objective but you have to take a long damn way around it)
-        ending (long and hard level)
-    w5 blue (extra. blue form is pretty crap right now)
-    w6 credits
-        credits
-        extras
-        death
-        destruction
-        etc
+        w4 bridges go here
