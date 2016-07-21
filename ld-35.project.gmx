@@ -153,6 +153,7 @@
     </rooms>
     <room>rooms\r_test</room>
     <room>rooms\r_def</room>
+    <room>rooms\w3_4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
