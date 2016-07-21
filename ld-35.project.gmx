@@ -64,6 +64,8 @@
     <script>scripts\creatorReset.gml</script>
     <script>scripts\interactiveCollision.gml</script>
     <script>scripts\warp.gml</script>
+    <script>scripts\fpsWarning.gml</script>
+    <script>scripts\guiSize.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\c_solid</object>
@@ -121,8 +123,13 @@
       <room>rooms\w2_5</room>
     </rooms>
     <rooms name="w3">
-      <room>rooms\w3_0</room>
       <room>rooms\w3_1</room>
+      <room>rooms\w3_2</room>
+      <room>rooms\w3_3</room>
+      <room>rooms\w3_5</room>
+    </rooms>
+    <rooms name="w4">
+      <room>rooms\w4_1</room>
     </rooms>
     <room>rooms\the_end</room>
     <room>rooms\w1_4</room>
@@ -146,6 +153,7 @@
     </rooms>
     <room>rooms\r_test</room>
     <room>rooms\r_def</room>
+    <room>rooms\w3_4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

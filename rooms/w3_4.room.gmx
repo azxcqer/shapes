@@ -15,20 +15,20 @@
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
-    <isSet>0</isSet>
-    <w>0</w>
-    <h>0</h>
-    <showGrid>0</showGrid>
-    <showObjects>0</showObjects>
-    <showTiles>0</showTiles>
-    <showBackgrounds>0</showBackgrounds>
-    <showForegrounds>0</showForegrounds>
+    <isSet>-1</isSet>
+    <w>1024</w>
+    <h>600</h>
+    <showGrid>-1</showGrid>
+    <showObjects>-1</showObjects>
+    <showTiles>-1</showTiles>
+    <showBackgrounds>-1</showBackgrounds>
+    <showForegrounds>-1</showForegrounds>
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
-    <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
-    <page>0</page>
-    <xoffset>0</xoffset>
-    <yoffset>0</yoffset>
+    <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
+    <page>1</page>
+    <xoffset>-118</xoffset>
+    <yoffset>43</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -52,22 +52,9 @@
   </views>
   <instances>
     <instance objName="ct_main" x="0" y="0" name="inst_508E317D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_gate" x="162" y="102" name="inst_F9E62A27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_player" x="114" y="53" name="inst_C413F5B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="138" y="78" name="inst_B2CDE36E" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="78" y="78" name="inst_B7500FBD" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="126" y="84" name="inst_DF215A68" locked="0" code="" scaleX="7.19999980926514" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="120" y="108" name="inst_C33B30E0" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="168" y="84" name="inst_650EDF58" locked="0" code="" scaleX="2" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="96" y="114" name="inst_CE748353" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="72" y="120" name="inst_1500704D" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="150" y="72" name="inst_85F0B5FC" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="162" y="66" name="inst_B55DAC13" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="54" y="114" name="inst_E3A7999B" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="36" y="108" name="inst_0567B8B9" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cl_creator" x="18" y="102" name="inst_232EA98A" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_changer4" x="36" y="84" name="inst_02175C3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="c_solid" x="108" y="54" name="inst_977A3EE8" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cl_player" x="54" y="42" name="inst_BC73672F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_gate" x="66" y="66" name="inst_54D62832" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="c_solid" x="54" y="72" name="inst_0C51FB34" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
