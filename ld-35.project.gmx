@@ -64,6 +64,8 @@
     <script>scripts\creatorReset.gml</script>
     <script>scripts\interactiveCollision.gml</script>
     <script>scripts\warp.gml</script>
+    <script>scripts\fpsWarning.gml</script>
+    <script>scripts\guiSize.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\c_solid</object>
