@@ -48,7 +48,7 @@ global.bp = global.bpDefault
 global.w1Start = w1_1
 global.w2Start = w2_1
 global.w3Start = w3_1
-global.w4Start = w4_0
+global.w4Start = w4_1
 global.wGameJamStart = w0_1_old
 //global.w2start = w2_1
 

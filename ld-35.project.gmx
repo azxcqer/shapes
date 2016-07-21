@@ -126,9 +126,9 @@
       <room>rooms\w3_1</room>
       <room>rooms\w3_2</room>
       <room>rooms\w3_3</room>
+      <room>rooms\w3_5</room>
     </rooms>
     <rooms name="w4">
-      <room>rooms\w4_0</room>
       <room>rooms\w4_1</room>
     </rooms>
     <room>rooms\the_end</room>
