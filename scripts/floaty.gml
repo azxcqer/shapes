@@ -19,18 +19,20 @@ if floatRunningCd > 0 {
     floatRunningCd--
 }
 
+
 #define floatyInit
 ///floaty inits
 //the actual point of origin. used to revert the floatness
 floatOrigin = y
-//how much up it floats
-floatUp = 0.5
+//how much up it floats up and down
+floatRange = 0.5
+floatUp = floatRange
+floatDown = floatRange
+
 //the actual point
-floatTop = y - floatUp
-//how  much down it floats
-floatDown = 0.5
+floatTop = floatOrigin - floatUp
 //the actual point again
-floatBot = y + floatDown
+floatBot = floatOrigin + floatDown
 //random float start
 //set a random point inside the floating range so multiple objects don't float the same
 floatRandom = irandom_range(floatTop, floatBot)
@@ -47,7 +49,15 @@ floatSpeed = 0.025
 //the direction which it's floating, either 1 or -1
 floatDir = 1
 
+
 #define floatHammerTime
 ///stop!
 floatRunningCd = floatCooldown
 floatDir *= -1
+#define floatyReset
+///resetting the thingie because if I don't it doesnt work
+var a = argument0
+
+floatRange = a
+floatTop = floatOrigin - a
+floatBot = floatOrigin + a
