@@ -54,18 +54,24 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\backgrounder.gml</script>
-    <script>scripts\collision.gml</script>
-    <script>scripts\draw_text_shadow.gml</script>
-    <script>scripts\glower.gml</script>
+    <scripts name="engine">
+      <scripts name="animation">
+        <script>scripts\floaty.gml</script>
+        <script>scripts\glower.gml</script>
+      </scripts>
+      <scripts name="drawing">
+        <script>scripts\draw_text_shadow.gml</script>
+        <script>scripts\guiSize.gml</script>
+        <script>scripts\fpsWarning.gml</script>
+      </scripts>
+      <script>scripts\backgrounder.gml</script>
+      <script>scripts\collision.gml</script>
+      <script>scripts\warp.gml</script>
+    </scripts>
     <script>scripts\setSpeed.gml</script>
     <script>scripts\form_change.gml</script>
-    <script>scripts\floaty.gml</script>
     <script>scripts\creatorReset.gml</script>
     <script>scripts\interactiveCollision.gml</script>
-    <script>scripts\warp.gml</script>
-    <script>scripts\fpsWarning.gml</script>
-    <script>scripts\guiSize.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\c_solid</object>
