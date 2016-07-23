@@ -54,13 +54,22 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\backgrounder.gml</script>
-    <script>scripts\collision.gml</script>
-    <script>scripts\draw_text_shadow.gml</script>
-    <script>scripts\glower.gml</script>
+    <scripts name="engine">
+      <scripts name="animation">
+        <script>scripts\floaty.gml</script>
+        <script>scripts\glower.gml</script>
+      </scripts>
+      <scripts name="drawing">
+        <script>scripts\draw_text_shadow.gml</script>
+        <script>scripts\guiSize.gml</script>
+        <script>scripts\fpsWarning.gml</script>
+      </scripts>
+      <script>scripts\backgrounder.gml</script>
+      <script>scripts\collision.gml</script>
+      <script>scripts\warp.gml</script>
+    </scripts>
     <script>scripts\setSpeed.gml</script>
     <script>scripts\form_change.gml</script>
-    <script>scripts\floaty.gml</script>
     <script>scripts\creatorReset.gml</script>
     <script>scripts\interactiveCollision.gml</script>
   </scripts>
@@ -120,8 +129,13 @@
       <room>rooms\w2_5</room>
     </rooms>
     <rooms name="w3">
-      <room>rooms\w3_0</room>
       <room>rooms\w3_1</room>
+      <room>rooms\w3_2</room>
+      <room>rooms\w3_3</room>
+      <room>rooms\w3_5</room>
+    </rooms>
+    <rooms name="w4">
+      <room>rooms\w4_1</room>
     </rooms>
     <room>rooms\the_end</room>
     <room>rooms\w1_4</room>
@@ -145,6 +159,7 @@
     </rooms>
     <room>rooms\r_test</room>
     <room>rooms\r_def</room>
+    <room>rooms\w3_4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

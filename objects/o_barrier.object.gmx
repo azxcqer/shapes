@@ -30,6 +30,7 @@ event_inherited()
 form=0
 //because of the map thingie
 sprite_index=sp_barrier
+depth = -2
 </string>
           </argument>
         </arguments>

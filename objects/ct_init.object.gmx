@@ -47,11 +47,14 @@ global.bp = global.bpDefault
 //worlds variables
 global.w1Start = w1_1
 global.w2Start = w2_1
-global.w3Start = w3_0
+global.w3Start = w3_1
+global.w4Start = w4_1
 global.wGameJamStart = w0_1_old
 //global.w2start = w2_1
 
 global.worldClear = -1
+
+global.skipTo = 0
 </string>
           </argument>
         </arguments>
@@ -96,12 +99,13 @@ window_set_cursor(cr_none)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.testing
-{
-    room_goto(rm_test)
+            <string>///room skipping or something
+var a = global.skipTo;
+
+if a != 0 {
+    warp(a)
 }
-else
-{
+else {
     room_goto_next()
 }
 </string>

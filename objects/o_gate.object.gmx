@@ -53,7 +53,7 @@ delayedWarp = false
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(target)
+            <string>warp(target)
 </string>
           </argument>
         </arguments>
